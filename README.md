@@ -74,7 +74,7 @@ that influences in the comparators performance is reduced in
 this design. This help to get the desired output for a high speed
 
 
-## REFERENCE CIRCUIT
+## REFERENCE_CIRCUIT
 
 
 <img width="921" alt="hk_2" src="https://user-images.githubusercontent.com/100065544/154854566-9389d916-bd28-4ba9-8a75-ca6e95ad6a82.png">
