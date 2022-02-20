@@ -223,6 +223,12 @@ v17 net53 gnd! dc=0 ac=1.05 sin ( 0 600m 1k 0 0 0 )
  ```
  
  ##  SIMULATION_RESULTS
+ 
+ 
+ <img width="960" alt="hk_final_1" src="https://user-images.githubusercontent.com/100065544/154859804-138bba86-404e-42fb-b704-68272e6a7de1.png">
+
+
+- Here we have used reference as the ground or zero voltage, whenever the input signal is crossing the grond voltage a transistion in the output voltage is also taking place.
 
 
 
