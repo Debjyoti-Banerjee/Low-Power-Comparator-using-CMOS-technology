@@ -1,7 +1,9 @@
 # Low-Power-Comparator-using-CMOS-technology
 --This comparator design was simulated using Synopsys custom compiler as apart of hackathon organised jointly by Synopsys India ,VLSI System Design and IIT Hyderabad
 
--- The paper or the report submitted for this hackathon can be found ["My Paper"](
+-- The paper or the report submitted for this hackathon can be found ["My Paper"](https://github.com/Debjyoti-Banerjee/Low-Power-Comparator-using-CMOS-technology/blob/main/Debjyoti_comparator_hackathon.pdf)
+
+
 --This paper reports or portrays the low power and
 high speed comparator design using CMOS technology of 28nm
 and evaluated using synopsis tools.Design based on two stage
