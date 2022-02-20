@@ -248,13 +248,14 @@ v17 net53 gnd! dc=0 ac=1.05 sin ( 0 600m 1k 0 0 0 )
 
 ## REFERENCE
 
-- • International Journal of Electronic Engineering
+- • [International Journal of Electronic Engineering
 Research ISSN 0975 - 6450 Volume 2 Number
 1 (2010) pp. 29–34© Research India Publications
-http://www.ripublication.com/ijeer.htm
-• https://ieeexplore.ieee.org/document/7888054
-• https://ieeexplore.ieee.org/abstract/document/7873613
-• https://www.academia.edu/Documents/in/ComparatorDesign
+http://www.ripublication.com/ijeer.htm](https://www.researchgate.net/publication/253237765_Design_of_a_CMOS_Comparator_for_Low_Power_and_High_Speed)
+
+- • https://ieeexplore.ieee.org/document/7888054
+- • https://ieeexplore.ieee.org/abstract/document/7873613
+- • https://www.academia.edu/Documents/in/ComparatorDesign
 
 
 
