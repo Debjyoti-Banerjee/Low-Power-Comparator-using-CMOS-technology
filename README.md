@@ -259,3 +259,22 @@ http://www.ripublication.com/ijeer.htm](https://www.researchgate.net/publication
 
 
 
+##  ACKNOWLEDGEMENT
+
+-  [KUNAL GHOSH](https://github.com/kunalg123)   ,  FOUNDER VLSI  DESIGN CORPORATION PRIVATE LIMITED
+
+-  [CHINMAYA PANDA](https://www.researchgate.net/profile/Chinmaya-Panda-6)  , PROFESSOR IIT HYDERABAD  DEPARTMENT OF ELECTRICAL ENGINEERING
+
+-  SAMEER S DURGOJI  NIT KARNATAKA
+
+
+
+## AUTHOR
+
+[DEBJYOTI  BANERJEE](https://www.linkedin.com/in/debjyoti-banerjee-9385a4192)
+
+- MTECH VLSI NIT DURGAPUR
+
+- BTECH KALYANI GOVERNMENT ENGINEERING COLLEGE
+
+
