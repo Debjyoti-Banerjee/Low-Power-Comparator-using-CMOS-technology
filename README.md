@@ -28,7 +28,7 @@ earlier work done
 
 -[METHODOLOGY](#METHODOLOGY)
 
--[REPRODUCE_WAVEFORMS](#REPRODUCE_WAVEFORMS)
+
 
 -[LIMITATION](#LIMITATION)
 
@@ -233,3 +233,10 @@ v17 net53 gnd! dc=0 ac=1.05 sin ( 0 600m 1k 0 0 0 )
 
 
 
+## METHODOLOGY
+
+- There were approximately five and more number of reference designs for designing comparator however this design was chosen since the pmos combined with the arrangement of the five other nmos used far less power compared to the other designs,moreover from the simulation result it is clearly visible that the transition is very fast when the input crosses the reference voltage.
+
+- The W/L ratio of the transistors were chosen so as to minimise the delay between the input transition above and below the reference voltages,(zero in this case),five finger pmos was used in the last pmos from yhe right since it is directly connected to the capacitor so its speed was most important to  charge the capacitor to the vdd value.
+
+- The first pmos transistor was used initially with a greater number of fingers then to adjust the resistance value since its source and gate are sorted it was again redesigned to one finger.
