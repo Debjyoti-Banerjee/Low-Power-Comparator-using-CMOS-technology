@@ -21,6 +21,11 @@ earlier work done
 
 -[SCHEMATIC](#SCHEMATIC)
 
+-[NETLIST](#NETLIST)
+
+
+-[SIMULATION_RESULTS](#SIMULATION_RESULTS)
+
 -[METHODOLOGY](#METHODOLOGY)
 
 -[REPRODUCE_WAVEFORMS](#REPRODUCE_WAVEFORMS)
@@ -80,6 +85,144 @@ this design. This help to get the desired output for a high speed
 <img width="921" alt="hk_2" src="https://user-images.githubusercontent.com/100065544/154854566-9389d916-bd28-4ba9-8a75-ca6e95ad6a82.png">
 
 The reference circuit diagram has been extracted and recreated from the [paper](https://www.researchgate.net/figure/Proposed-design-of-a-CMOS-comparator_fig4_253237765)
+
+
+## IMPLEMENTATION
+
+-  ALL the nmos and pmos used in this circuit are designed uding 30nm technology
+
+-  (W/L) used in these nmos and pmos used are  (0.1/0.03) um   except for the last phase nmos and pmos
+
+-  ^ fingers have been used in the last pmos to increase the faster charging of the capacitor when the input signal is above the reference voltage
+
+
+-  Total  4 pmos  and   5 nmos  have been used in the circuit
+
+
+-  Capacitor of  100f F has been used
+
+
+-  Since it is a 30nm technology so the maximum value of Vdd used in the circuit is 1.05 V
+
+-  Synopsys 28nm  technology  library   has been used
+
+-  In2  is the input  signal terminal of the comparator and In1 is the  reference terminal of the comparator
+
+-  Test voltage  of  1kHz frequency has been implemented
+
+-  Maximum magnitude of the input signal and the Vdd value value has been kept different to show that the comparator takes the Vdd value depending on th reference but not dependent on the maximum amplitude of the input signal
+
+
+## SCHEMATIC
+
+
+<img width="951" alt="hk_circuit" src="https://user-images.githubusercontent.com/100065544/154856529-42c3be5a-afea-4bf7-96f5-421f8a240b1b.PNG">
+
+### Implementing with symbol
+
+<img width="954" alt="hk_symbol" src="https://user-images.githubusercontent.com/100065544/154858848-4799fded-baae-41d2-8993-fd378e7013fd.PNG">
+
+
+
+
+###  NETLIST
+
+```
+*  Generated for: PrimeSim 
+
+*  Design library name: deb_lib1 
+
+*  Design cell name: comparator 
+
+*  Design view name: schematic 
+
+.lib '/PDK/SAED_PDK32nm/hspice/saed32nm.lib' TT 
+
+  
+
+*Custom Compiler Version S-2021.09 
+
+*Sun Feb 20 08:44:45 2022 
+
+  
+
+.global gnd! 
+
+******************************************************************************** 
+
+* Library          : deb_lib1 
+
+* Cell             : comparator 
+
+* View             : schematic 
+
+* View Search List : hspice hspiceD schematic spice veriloga 
+
+* View Stop List   : hspice hspiceD 
+
+******************************************************************************** 
+
+xm3 net30 net30 net57 net57 p105 w=0.1u l=0.03u nf=1 m=1 
+
+xm20 vout net18 net57 net57 p105 w=0.5u l=0.03u nf=5 m=1 
+
+xm9 net37 net37 net57 net57 p105 w=0.1u l=0.03u nf=1 m=1 
+
+xm0 net18 net37 net57 net57 p105 w=0.1u l=0.03u nf=1 m=1 
+
+xm8 net23 net30 net32 net32 n105 w=0.1u l=0.03u nf=1 m=1 
+
+xm7 net30 net30 net32 net32 n105 w=0.1u l=0.03u nf=1 m=1 
+
+xm6 vout net30 net32 net32 n105 w=0.1u l=0.03u nf=1 m=1 
+
+xm5 net37 gnd! net23 net23 n105 w=0.1u l=0.03u nf=1 m=1 
+
+xm4 net18 net53 net23 net23 n105 w=0.1u l=0.03u nf=1 m=1 
+
+c12 vout gnd! c=100f 
+
+v18 net32 gnd! dc=-1.05 
+
+v15 net57 gnd! dc=1.05 
+
+v17 net53 gnd! dc=0 ac=1.05 sin ( 0 600m 1k 0 0 0 ) 
+
+   
+
+  
+
+.tran '0.1u' '5m' name=tran 
+
+  
+
+.option primesim_remove_probe_prefix = 0 
+
+.probe v(*) i(*) level=1 
+
+.probe tran v(vout) v(gnd!) v(net53) 
+
+  
+
+.temp 25 
+
+  
+
+ .option primesim_output=wdf 
+
+  
+
+.option parhier = LOCAL 
+
+ 
+
+   
+
+.end 
+
+ ```
+ 
+ ##  SIMULATION_RESULTS
 
 
 
