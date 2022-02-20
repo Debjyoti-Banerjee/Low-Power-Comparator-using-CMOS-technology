@@ -34,7 +34,16 @@ earlier work done
 -[AUTHOR](#AUTHOR)
 
 
-```
-MY CODE
+## INTRODUCTION
 
-```
+Comparator is an important device widely used in Analog
+to Digital Converters used in large number of application
+using low power and audio solutions.Power consumption and
+speed are key factors considered while designing comparators.Comparators are classified into open loop and regenrative
+comparators using positive feedback.
+
+The comparator idea needs to be researched and popularised more and more and this is because in digital circuits its either "YES" or "NO" and comparing the given voltage to  a known reference is the most sort of feasible thing that helps in digital circuit and has huge applications in the present circuit systems 
+
+First test or draft rough test of the circuit was done using [esim](https://esim.fossee.in/home) and also using Cadence Virtuoso before implementing it in Synopsys design compiler.
+
+
