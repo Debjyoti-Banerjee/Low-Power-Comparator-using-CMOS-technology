@@ -1,7 +1,7 @@
 # Low-Power-Comparator-using-CMOS-technology
 --This comparator design was simulated using Synopsys custom compiler as apart of hackathon organised jointly by Synopsys India ,VLSI System Design and IIT Hyderabad
 
--- The paper or the report submitted for this hackathon can be found ["My Paper"](https://github.com/Debjyoti-Banerjee/Low-Power-Comparator-using-CMOS-technology/blob/main/Debjyoti_comparator_hackathon.pdf)
+-- The paper or the report submitted for this hackathon can be found ["My Paper"](https://github.com/Debjyoti-Banerjee/Low-Power-Comparator-using-CMOS-technology/blob/main/Debjyoti_comparator_hackathon.pdf)  and the .cir file for simulation can be viewed [here](
 
 
 --This paper reports or portrays the low power and
