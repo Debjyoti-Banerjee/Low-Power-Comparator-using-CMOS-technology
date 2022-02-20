@@ -79,4 +79,7 @@ this design. This help to get the desired output for a high speed
 
 <img width="921" alt="hk_2" src="https://user-images.githubusercontent.com/100065544/154854566-9389d916-bd28-4ba9-8a75-ca6e95ad6a82.png">
 
+The reference circuit diagram has been extracted and recreated from the [paper](https://www.researchgate.net/figure/Proposed-design-of-a-CMOS-comparator_fig4_253237765)
+
+
 
