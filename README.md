@@ -49,7 +49,7 @@ comparators using positive feedback.
 
 The comparator idea needs to be researched and popularised more and more and this is because in digital circuits its either "YES" or "NO" and comparing the given voltage to  a known reference is the most sort of feasible thing that helps in digital circuit and has huge applications in the present circuit systems 
 
-First test or draft rough test of the circuit was done using [esim](https://esim.fossee.in/home) and also using Cadence Virtuoso before implementing it in Synopsys design compiler.
+First test or draft rough test of the circuit was done using [esim](https://esim.fossee.in/home) and also using Cadence Virtuoso before implementing it in [Synopsys](https://www.synopsys.com/) design compiler.
 
 A comparator behaves as quantizer in the ADC. As the
 comparator is of 1-bit it has two levels either a ‘1’ and
