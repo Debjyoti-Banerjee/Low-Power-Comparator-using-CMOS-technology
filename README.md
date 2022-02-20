@@ -30,7 +30,7 @@ earlier work done
 
 
 
--[LIMITATION](#LIMITATION)
+-[DATA_SHEET](#DATA_SHEET)
 
 -[REFERENCE](#REFERENCE)
 
@@ -240,3 +240,21 @@ v17 net53 gnd! dc=0 ac=1.05 sin ( 0 600m 1k 0 0 0 )
 - The W/L ratio of the transistors were chosen so as to minimise the delay between the input transition above and below the reference voltages,(zero in this case),five finger pmos was used in the last pmos from yhe right since it is directly connected to the capacitor so its speed was most important to  charge the capacitor to the vdd value.
 
 - The first pmos transistor was used initially with a greater number of fingers then to adjust the resistance value since its source and gate are sorted it was again redesigned to one finger.
+
+
+## DATA_SHEET
+
+<img width="546" alt="ANALYSIS" src="https://user-images.githubusercontent.com/100065544/154860672-32396079-65a1-48c8-b12e-b1298791b10f.PNG">
+
+## REFERENCE
+
+- • International Journal of Electronic Engineering
+Research ISSN 0975 - 6450 Volume 2 Number
+1 (2010) pp. 29–34© Research India Publications
+http://www.ripublication.com/ijeer.htm
+• https://ieeexplore.ieee.org/document/7888054
+• https://ieeexplore.ieee.org/abstract/document/7873613
+• https://www.academia.edu/Documents/in/ComparatorDesign
+
+
+
