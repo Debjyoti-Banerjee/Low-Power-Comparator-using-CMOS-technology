@@ -46,4 +46,31 @@ The comparator idea needs to be researched and popularised more and more and thi
 
 First test or draft rough test of the circuit was done using [esim](https://esim.fossee.in/home) and also using Cadence Virtuoso before implementing it in Synopsys design compiler.
 
+A comparator behaves as quantizer in the ADC. As the
+comparator is of 1-bit it has two levels either a ‘1’ and
+‘0’. ‘1’ implies that VDD = +1.05V and a ‘0’ implies that
+VSS = -1.05V. If the input of the comparator is greater
+than the reference voltage it gives an output of ‘1’ and if
+the comparator input is less than reference voltage then the
+output of the comparator is ‘0’. A simple comparator performs
+the required function as desired. Given a reference level, a
+comparator gives an output of VDD when the signal is greater
+than the reference level and an output of VSS when signal
+is less than reference level. In this design the Vref =0V.
+The operational amplifier can be used as a comparator. In
+this comparator design we have used the two stage CMOS
+OPAMP topology and power consumption amplifier .design technique to achieve highspeed amp; low
+power usage. Eliminated the compensation capacitor which
+will be used for designing a high gain two stage CMOS
+increase speed in the described design. Additional capacitor
+is used in two stage CMOS OPAMP for providing stability
+in the design,but compromising with stability to obtain the
+high performance as low power consumptionwith high speed.
+Present CMOS comparator design is shown in paper This
+comparator consists by using current mirrors, current sinks,
+active load amp; constant current source. width/length ratios
+are as selected which gives necessary results. Parasitic effects
+that influences in the comparators performance is reduced in
+this design. This help to get the desired output for a high speed
+
 
