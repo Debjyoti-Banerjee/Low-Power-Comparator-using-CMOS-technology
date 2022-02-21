@@ -244,7 +244,10 @@ v17 net53 gnd! dc=0 ac=1.05 sin ( 0 600m 1k 0 0 0 )
 
 ## DATA_SHEET
 
-<img width="546" alt="ANALYSIS" src="https://user-images.githubusercontent.com/100065544/154860672-32396079-65a1-48c8-b12e-b1298791b10f.PNG">
+- Here is a comparison between the results derived earlier and the results obtained through this simulation 
+
+<img width="563" alt="Capture" src="https://user-images.githubusercontent.com/100065544/154958125-25b3f709-f73f-4943-b94c-56f0900cb822.PNG">
+
 
 ## REFERENCE
 
