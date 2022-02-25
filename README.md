@@ -264,6 +264,10 @@ http://www.ripublication.com/ijeer.htm](https://www.researchgate.net/publication
 
 ##  ACKNOWLEDGEMENT
 
+- [IIT HYDERABAD](https://iith.ac.in/)
+
+- [SYNOPSYS INDIA](https://www.synopsys.com/)
+
 -  [KUNAL GHOSH](https://github.com/kunalg123)   ,  FOUNDER VLSI System DESIGN CORPORATION PRIVATE LIMITED
 
 -  [CHINMAYA PANDA](https://www.researchgate.net/profile/Chinmaya-Panda-6)  , PROFESSOR IIT HYDERABAD  DEPARTMENT OF ELECTRICAL ENGINEERING
