@@ -30,7 +30,7 @@ earlier work done
 
 
 
--[RESULTS](#DATA_SHEET)
+-[RESULTS](#RESULTS)
 
 -[REFERENCE](#REFERENCE)
 
@@ -242,7 +242,7 @@ v17 net53 gnd! dc=0 ac=1.05 sin ( 0 600m 1k 0 0 0 )
 - The first pmos transistor was used initially with a greater number of fingers then to adjust the resistance value since its source and gate are sorted it was again redesigned to one finger.
 
 
-## DATA_SHEET
+## RESULTS
 
 - Here is a comparison between the results derived earlier and the results obtained through this simulation 
 
